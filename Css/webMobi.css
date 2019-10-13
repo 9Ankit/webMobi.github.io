@@ -1,0 +1,127 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body {
+	background-color: white;
+}
+.navbar {
+	padding: 15px 5px 15px 5px;
+}
+.dropdown-menu {
+	position: absolute;
+	top:50px;
+	left: 0px;
+}
+.collapse a {
+color: black;	
+}
+.collapse li {
+	color: white;
+	margin: 0px 10px 0px 35px;
+}
+
+#container-1 {
+  position: relative;
+  margin: 0 auto;
+}
+#photo {
+	height: fit-content;
+	opacity:0.5;
+	vertical-align: middle;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+#imgText {
+	text-align: center;
+	position: absolute;
+	top:50px;
+	right: 22px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 97%;
+  padding: 75px;
+}
+#para {
+	font-family: 'SanFranciscoDisplayRegular';
+    text-align: center;
+    line-height: 1.5;
+    justify-content: center;
+}
+#textImgRow {
+	height:100%; 
+	background-color: rgb(230, 232, 232);
+	padding: 25px;
+}
+ul li {
+	list-style-type: none;
+	padding-left: 0px;
+	font-weight: bold;
+}
+ul {
+	padding-inline-start: 0px;
+}
+footer h5 {
+	font-weight: bold;
+}
+#first-carousel .carousel {
+	height: 100%;
+}
+
+.footerText {
+	padding: 55px 10px 55px 20px;
+}
+.footerIcon i {
+  padding: 25px 5px 0px 25px;
+}
+.footerInput {
+	border: 3px solid rgb(245, 203, 34);
+	border-radius: 20px;
+}
+
+
+
+@media only screen and  (max-width: 650px) {
+  body {
+    /*background-color: lightblue;*/
+  }
+  #container-1 {
+  	/*margin-top: 20px;*/
+  	/*padding: 5px 5px 5px 5px;*/
+  	height: 100%;
+  	margin: 0 auto;
+  	margin-bottom: 20px;
+  	/*width: 100%;*/
+  }
+   #container-1 h2 {
+   	font-size: 30px !important;
+   }
+   #container-1 h4 {
+   	font-size: 20px !important;
+   }
+
+  #photo {
+  	height: fit-content;
+  	width: 100%;
+  }
+  #imgText {
+  	padding:18px ;
+  	right: 20px;
+  	bottom: 0px;
+  	top:0px;
+  	width: 90%
+  }
+  .aboutSection {
+  	margin-top: 20px;
+  }
+  .footerText {
+  	padding: 30px 10px 15px 40px;
+  }
+  .footerLogo {
+  	padding: 0px 10px 10px 10px;
+  }
+  .footerIcon {
+  	margin-bottom: 20px;
+  }
+}
